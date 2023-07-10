@@ -1,0 +1,119 @@
+.form-section {
+  padding-top: 101px;
+  padding-bottom: 64px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.form-section .form-container {
+  padding-top: 38px;
+  padding-bottom: 38px;
+  padding-left: 43px;
+  padding-right: 43px;
+  background-color: #f8f8f8;
+  border-radius: 60px;
+  display: flex;
+}
+
+.form-section .form-container .left-info {
+  width: 50%;
+  display: inline-block;
+  vertical-align: top;
+  padding-right: 10px;
+}
+
+.form-section .form-container .right-info {
+  width: 50%;
+  display: inline-block;
+  vertical-align: top;
+  padding-left: 10px;
+}
+
+.form-section .form-container label {
+  display: block;
+  margin-bottom: 10px;
+  font-family: "Montserrat", sans-serif;
+  font-size: 20px;
+  font-weight: 500;
+}
+
+.form-section .form-container input[type="text"],
+.form-section .form-container input[type="password"],
+.form-section .form-container select {
+  background-color: #ffffff;
+  border-radius: 19px;
+  padding: 10px;
+  border: none;
+  outline: none;
+  width: 100%;
+  margin-bottom: 15px;
+}
+
+.frequency-inputs {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.frequency-button {
+  width: 48%;
+  margin-bottom: 10px;
+  font-family: "Montserrat", sans-serif;
+  font-size: 15px;
+  font-weight: 500;
+  background-color: #ffffff;
+  border-radius: 19px;
+  padding: 10px;
+  text-align: center;
+  cursor: pointer;
+  outline: none !important;
+  border: none;
+}
+
+.next-button {
+  font-family: "Montserrat", sans-serif;
+  font-size: 18px;
+  font-weight: 500;
+  background-color: #ffd18d;
+  border: none;
+  border-radius: 19px;
+  padding: 10px 20px;
+  color: #ffffff;
+  cursor: pointer;
+  float: right; /* Add this line */
+  margin-top: 10px;
+}
+
+.next-button:hover {
+  background-color: #ffc56c;
+}
+
+.right-infos {
+  /* Other styles */
+  float: right;
+  margin-left: 50px;
+}
+
+.pricing-cart {
+  font-family: "Montserrat", sans-serif;
+  font-size: 20px;
+  font-weight: 600;
+  text-align: left;
+}
+
+.cart-item {
+  margin-bottom: 8px;
+  margin-bottom: 12px;
+}
+
+.item-label {
+  display: inline-block;
+  width: 150px;
+  margin-top: 8px; /* Add top spacing between labels */
+  margin-bottom: 8px;
+}
+
+.item-value {
+  display: inline-block;
+}

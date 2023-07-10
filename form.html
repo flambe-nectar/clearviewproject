@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <title>Multi-Step Form</title>
+    <link rel="stylesheet" href="form.css" />
+  </head>
+
+  <body>
+    <section class="form-section">
+      <div class="form-container">
+        <div class="left-infos">
+          <form>
+            <label for="service">Step 1: Choose your service</label>
+            <select id="service" name="service">
+              <option class="options-title" value="">Select a service</option>
+              <option class="options" value="regular-cleaning">
+                Regular Cleaning
+              </option>
+              <option class="options" value="deep-cleaning">
+                Deep Cleaning
+              </option>
+              <option class="options" value="office-cleaning">
+                Office Cleaning
+              </option>
+              <option class="options" value="construction-cleaning">
+                After Construction Cleaning
+              </option>
+            </select>
+
+            <label for="frequency">Frequency</label>
+            <div class="frequency-inputs">
+              <button type="button" class="frequency-button" value="once">
+                Once
+              </button>
+              <button type="button" class="frequency-button" value="weekly">
+                Weekly
+              </button>
+              <br />
+              <button type="button" class="frequency-button" value="bi-weekly">
+                Bi-weekly
+              </button>
+              <button type="button" class="frequency-button" value="monthly">
+                Monthly
+              </button>
+            </div>
+            <button type="button" class="next-button">Next</button>
+          </form>
+        </div>
+
+        <div class="right-infos">
+          <div class="pricing-cart">
+            <div class="cart-item">
+              <span class="item-label">Subtotal:</span>
+              <span class="item-value">$99.99</span>
+            </div>
+            <div class="cart-item">
+              <span class="item-label">Discount:</span>
+              <span class="item-value">-$10.00</span>
+            </div>
+            <div class="cart-item">
+              <span class="item-label">Services Total:</span>
+              <span class="item-value">$89.99</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+  </body>
+</html>
